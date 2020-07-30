@@ -7,7 +7,7 @@ services:
     container_name: flask
     restart: always
     environment:
-      - APP_NAME="Brett's Flask App"
+      - APP_NAME=Brett's Flask App
     expose:
       - 8080
 
